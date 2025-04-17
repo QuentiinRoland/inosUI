@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import WhatYouLearnSection from './components/WhatYouLearnSection'
 import { FoundationsSection } from './components/FoundationsSection/FoundationsSection'
+import BenefitsSection from './components/BenefitsSection'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <HeroSection />
       <WhatYouLearnSection />
       <FoundationsSection />
+      <BenefitsSection />
     </div>
   )
 }
