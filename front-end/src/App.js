@@ -4,6 +4,8 @@ import Navbar from './components/Navbar'
 import WhatYouLearnSection from './components/WhatYouLearnSection'
 import { FoundationsSection } from './components/FoundationsSection/FoundationsSection'
 import BenefitsSection from './components/BenefitsSection'
+import CTA from './components/CTA'
+import { Footer } from './components/Footer'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <WhatYouLearnSection />
       <FoundationsSection />
       <BenefitsSection />
+      <CTA />
+      <Footer />
     </div>
   )
 }
